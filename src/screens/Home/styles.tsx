@@ -7,5 +7,7 @@ export const Container = styled.View`
 `;
 
 export const Title = styled.Text`
-
+   font-size: 100px;
+   font-family: 'Archivo';
+   font-weight: bold;
 `;
