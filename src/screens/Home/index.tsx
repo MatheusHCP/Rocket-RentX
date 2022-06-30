@@ -3,6 +3,7 @@ import { StatusBar } from 'react-native'
 import {RFValue} from 'react-native-responsive-fontsize'
 
 import Logo from '../../../assets/icons/Logotipo.svg'
+import theme from '../../styles/theme';
 
 
 import {
@@ -17,7 +18,7 @@ return (
    <Container>
      <StatusBar
      barStyle='light-content'
-     backgroundColor="transparent"
+     backgroundColor={theme.colors.header}
      />
     <Header>
       <HeaderContent>
