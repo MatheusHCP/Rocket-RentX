@@ -39,7 +39,6 @@ import {
 import { Button } from '../../components/Button';
 import Icon from 'react-native-vector-icons/Feather';
 import { RFValue } from 'react-native-responsive-fontsize';
-import theme from '../../styles/theme';
 import { useTheme } from 'styled-components';
 
 export function SchedulingDetails(){
