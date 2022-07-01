@@ -1,6 +1,7 @@
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 import { RFValue } from 'react-native-responsive-fontsize';
-import styled, {css} from 'styled-components/native';
+import { css } from 'styled-components/native';
+import styled from 'styled-components/native';
 
 interface DateValueProps{
     selected: boolean;
@@ -75,11 +76,12 @@ export const Content = styled.ScrollView.attrs({
     showsVerticalScrollIndicator: false
 })`
 
-
-
 `;
+
 export const Footer = styled.View`
 
     padding: 24px;
 
 `;
+
+// Continuar Aula 13
